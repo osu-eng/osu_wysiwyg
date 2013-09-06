@@ -1,0 +1,16 @@
+name = OSU WYSIWYG
+description = OSU WYSIWYG configuration
+core = 7.x
+package = OSU
+version = 7.x-1.0
+project = osu_wysiwyg
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = file_entity
+dependencies[] = filter
+dependencies[] = media
+features[ckeditor_profile][] = Advanced
+features[ckeditor_profile][] = CKEditor Global Profile
+features[features_api][] = api:2
+features[filter][] = wysiwyg
+features_exclude[dependencies][ckeditor] = ckeditor
