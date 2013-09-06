@@ -9,6 +9,7 @@ dependencies[] = ctools
 dependencies[] = features
 dependencies[] = file_entity
 dependencies[] = media
+dependencies[] = osu_text_format
 features[ckeditor_profile][] = Advanced
 features[ckeditor_profile][] = CKEditor Global Profile
 features[features_api][] = api:2

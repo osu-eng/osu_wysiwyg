@@ -102,7 +102,7 @@ function osu_wysiwyg_ckeditor_profile_defaults() {
         ),
       ),
       'input_formats' => array(
-        'osu_wysiwyg_wysiwyg' => 'wysiwyg',
+        'osu_text_format_wysiwyg' => 'wysiwyg',
       ),
     ),
     'CKEditor Global Profile' => array(
