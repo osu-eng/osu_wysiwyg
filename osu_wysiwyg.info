@@ -9,7 +9,6 @@ dependencies[] = features
 dependencies[] = filter
 dependencies[] = media
 dependencies[] = osu_captions
-dependencies[] = osu_codemirror
 dependencies[] = osu_text_format
 dependencies[] = strongarm
 dependencies[] = wysiwyg
