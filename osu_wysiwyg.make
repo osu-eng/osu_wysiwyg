@@ -12,4 +12,4 @@ projects[osu_text_format][type] = module
 projects[osu_text_format][subdir] = osu
 projects[osu_text_format][download][type] = git
 projects[osu_text_format][download][url] = https://github.com/osu-eng/osu_text_format.git
-projects[osu_text_format][download][branch] = master
+projects[osu_text_format][download][branch] = develop
