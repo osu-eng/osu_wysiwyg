@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the OSU WYSIWYG feature.
  */
+
+include_once 'osu_wysiwyg.features.inc';

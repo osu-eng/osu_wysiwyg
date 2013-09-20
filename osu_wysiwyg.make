@@ -21,3 +21,17 @@ projects[osu_text_format][subdir] = custom
 projects[osu_text_format][download][type] = git
 projects[osu_text_format][download][url] = https://github.com/osu-eng/osu_text_format.git
 projects[osu_text_format][download][branch] = develop
+
+; Codemirror plugin
+projects[osu_codemirror][type] = module
+projects[osu_codemirror][subdir] = custom
+projects[osu_codemirror][download][type] = git
+projects[osu_codemirror][download][url] = https://github.com/osu-eng/osu_codemirror.git
+projects[osu_codemirror][download][branch] = 7.x-1.x
+
+; Image captions
+projects[osu_captions][type] = module
+projects[osu_captions][subdir] = custom
+projects[osu_captions][download][type] = git
+projects[osu_captions][download][url] = https://github.com/osu-eng/osu_captions.git
+projects[osu_captions][download][branch] = 7.x-1.x
