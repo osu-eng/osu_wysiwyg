@@ -20,7 +20,7 @@ projects[osu_text_format][type] = module
 projects[osu_text_format][subdir] = custom
 projects[osu_text_format][download][type] = git
 projects[osu_text_format][download][url] = https://github.com/osu-eng/osu_text_format.git
-projects[osu_text_format][download][branch] = 7.x-1.x
+projects[osu_text_format][download][branch] = develop
 
 ; OSU image captions
 projects[osu_captions][type] = module
