@@ -22,9 +22,20 @@ projects[osu_text_format][download][type] = git
 projects[osu_text_format][download][url] = https://github.com/osu-eng/osu_text_format.git
 projects[osu_text_format][download][branch] = 7.x-1.x
 
-; Image captions
+; OSU image captions
 projects[osu_captions][type] = module
 projects[osu_captions][subdir] = custom
 projects[osu_captions][download][type] = git
 projects[osu_captions][download][url] = https://github.com/osu-eng/osu_captions.git
 projects[osu_captions][download][branch] = 7.x-1.x
+
+; OSU linkit profile
+projects[osu_linkit][type] = module
+projects[osu_linkit][subdir] = custom
+projects[osu_linkit][download][type] = git
+projects[osu_linkit][download][url] = https://github.com/osu-eng/osu_linkit.git
+projects[osu_linkit][download][branch] = 7.x-1.x
+
+; Token insert
+projects[token_insert][version] = 2.1
+projects[token_insert][subdir] = contrib
