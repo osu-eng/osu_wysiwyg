@@ -5,3 +5,35 @@
  */
 
 include_once 'osu_wysiwyg.features.inc';
+
+/**
+ * Implements hook_element_info_alter().
+ */
+function osu_wysiwyg_element_info_alter(&$type) {
+  // Change text format processing on elements to our version.
+  if (isset($type['text_format'])) {
+    $type['text_format']['#process'][] = 'osu_wysiwyg_filter_process_format';
+  }
+}
+
+/**
+ * Callback for processing the text_format element.
+ */
+function osu_wysiwyg_filter_process_format($element) {
+
+  // Do not auto submit the form due to changes of the filter.
+  $element['format']['format']['#attributes']['class'][] = 'ctools-auto-submit-exclude';
+
+  // Do not show the guidelines and help text for text formatters.
+  // Also format this all a bit different so that it looks right.
+
+  $element['format']['#weight'] = 1;
+  $element['format']['#prefix'] = '<div class="format-toggle">';
+  $element['format']['#suffix'] = '</div><div class="clearfix"></div>';
+  unset($element['format']['#type']);
+  $element['format']['format']['#title'] = 'Editor: ';
+  $element['format']['help']['#access'] = FALSE;
+  $element['format']['guidelines']['#access'] = FALSE;
+
+  return $element;
+}
